@@ -2,7 +2,7 @@ const morseCodeDictionary = require("./morse-code-dictionary.json");
 
 /**
  * Returns an array of all of the words sorted by length, shortest first
- * @param {String[]}  - An array of strings.
+ * @param {String[]} words - An array of strings.
  * @returns {string[]} An array of strings.
  */
 function sortByStringLength() {}
@@ -24,12 +24,13 @@ function textScroller() {}
 function betweenExtremes() {}
 
 /**
- * Returns the difference between the largest and smallest number in the array
- * @param {String} message - A string to translate.
- * @param {Object[]} dictionary - A morse code dictionary ( use the one imported at the top of this file)
- * @returns {Number} The message in morse code
+ * Returns the translation of English to morse code.
+ * @param {String} message - A string to translate. 
+ * @param {Object[]} dictionary - A morse code dictionary (one is imported at the top of the file, use it if you want to test your code in this file)
+ * @returns {Number} The message in morse code. Note that the tests do not want you to separate words with slashes, like in the example below.
  * Example: "A new month"
  * .- / -. . .-- / -- --- -. - ....
+ * Hint: Check the morse-code-dictionary.json file to see what data is available.
  */
 function morseCodeTranslator() {}
 
